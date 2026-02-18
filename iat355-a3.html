@@ -8,13 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
-  <!-- Vega libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
   <style>
-    /* Optional: simple layout helpers */
     .a3-section { width: min(1100px, 92vw); margin: 40px auto; }
     .chart { background:#111; padding: 18px; border-radius: 12px; margin: 16px 0 34px; }
     .chart h3 { margin: 0 0 10px; font-size: 1.1rem; font-weight: 700; }
@@ -31,62 +25,25 @@
     <a href="index.html">Home</a>
     <a href="visualizations.html">Visualizations</a>
     <a href="iat355-a3.html">IAT355 A3</a>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <script src="a3-vis.js"></script>
-
   </div>
 
   <div class="a3-section">
     <h1>Assignment 3: Vega-Lite Visualizations</h1>
 
-    <!-- VIS 1 -->
-    <div class="chart">
-      <h3>Visualization 1A</h3>
-      <div id="vis1a"></div>
-    </div>
-
-    <div class="chart">
-      <h3>Visualization 1B</h3>
-      <div id="vis1b"></div>
-    </div>
-
-    <!-- VIS 2 -->
-    <div class="chart">
-      <h3>Visualization 2A</h3>
-      <div id="vis2a"></div>
-    </div>
-
-    <div class="chart">
-      <h3>Visualization 2B</h3>
-      <div id="vis2b"></div>
-    </div>
-
-    <!-- VIS 3 -->
-    <div class="chart">
-      <h3>Visualization 3A</h3>
-      <div id="vis3a"></div>
-    </div>
-
-    <div class="chart">
-      <h3>Visualization 3B</h3>
-      <div id="vis3b"></div>
-    </div>
-
-    <!-- VIS 4 -->
-    <div class="chart">
-      <h3>Visualization 4A</h3>
-      <div id="vis4a"></div>
-    </div>
-
-    <div class="chart">
-      <h3>Visualization 4B</h3>
-      <div id="vis4b"></div>
-    </div>
+    <div class="chart"><h3>Visualization 1A</h3><div id="vis1a"></div></div>
+    <div class="chart"><h3>Visualization 1B</h3><div id="vis1b"></div></div>
+    <div class="chart"><h3>Visualization 2A</h3><div id="vis2a"></div></div>
+    <div class="chart"><h3>Visualization 2B</h3><div id="vis2b"></div></div>
+    <div class="chart"><h3>Visualization 3A</h3><div id="vis3a"></div></div>
+    <div class="chart"><h3>Visualization 3B</h3><div id="vis3b"></div></div>
+    <div class="chart"><h3>Visualization 4A</h3><div id="vis4a"></div></div>
+    <div class="chart"><h3>Visualization 4B</h3><div id="vis4b"></div></div>
   </div>
 
-  <!-- Your Assignment 3 chart renderer -->
+  <!-- Load Vega AFTER the divs exist -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <script src="a3-vis.js"></script>
 </body>
 </html>
