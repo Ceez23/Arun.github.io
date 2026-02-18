@@ -1,8 +1,8 @@
 // a3-vis.js
 // This file renders all A3 Vega-Lite charts into the divs in iat355-a3.html
 
-const LONG = "dataset/videogames_long.csv";
-const WIDE = "dataset/videogames_wide.csv";
+const LONG = "videogames_long.csv";
+const WIDE = "videogames_wide.csv";
 
 // Optional embed config
 const embedOpts = { actions: false };
