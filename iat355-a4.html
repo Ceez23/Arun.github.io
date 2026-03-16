@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAT355 A4 - D3 Interaction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .center-content {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        #vis {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .assignment-text {
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-row">
+        <div class="extra">Interest1 Interest2 Socials</div>
+        <a href="index.html">Home</a>
+        <a href="visualizations.html">Visualizations</a>
+        <a href="iat355-a3.html">IAT355 A3</a>
+        <a href="iat355-a4.html">IAT355 A4</a>
+    </div>
+
+    <div class="center-content">
+        <h1>IAT355 Assignment 4</h1>
+        <p class="assignment-text">
+            Click anywhere inside the canvas to add a circle. A maximum of 10 circles can appear at once.
+            Each circle is placed exactly where you click and animates when it appears.
+        </p>
+
+        <div id="vis"></div>
+    </div>
+
+    <script type="module" src="d3-assignment.js"></script>
+</body>
+</html>
